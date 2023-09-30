@@ -1,57 +1,166 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+<!-- This is an example of a comment -->
+
 <head>
-  <meta charset="utf-8">
-  <title>IFSC 1310 | Ruben Hernandez</title>
-  <meta name="description" content="A collection of work from IFSC 1310 - Web Technologies">
-  <meta name="author" content="Ruben Hernandez">
+  <title>Prototype HTML Document</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="This is a keyword rich short narrative of the site's purpose" />
+  <meta name="author" content="Thomas Wallace" />
+  <!-- Keywords Meta No Longer Necessary -->
+  <meta name="keywords" content="UALR, UA Little Rock, Web Technology" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
+
 <body>
-  <h1>Gordo</h1>
-  <img src="assets/img/gordo.jpeg" alt="Gordo" />
-  Gordo
+  <main>
+    <header class="primary">
+      <h1>Prototype HTML Document Example</h1>
+    </header><!-- #header-->
+    <section id="content">
+      <header>
+        <h2 id="test">Properly Marking up an HTML Document</h2>
+      </header>
+      <p>This is a paragraph. Often times designers will use <q>Dummy Text</q> as a placeholder <span class="alert">in a document</span>. An example of that text follows...<em>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</em> Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. <strong>Donec fringilla risus nec nunc.</strong> Fusce tellus arcu, blandit quis, posuere in, porta vitae, <sup>lorem.</sup></p>
+      <p> Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. <del>Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes,</del> nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim.</p>
+      <p> Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+      <h3>This is a Subsection of the Primary Content </h3>
+      <figure>
+        <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" alt="UA Little Rock Logo" />
+        <figcaption>This is a caption</figcaption>
+      </figure>
+      <p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. </p>
+      <hr />
+      <address>
+        Thomas Wallace<br />
+        555 Street Dr.<br />
+        Little Rock, AR, 72204
+      </address>
 
-Old Reliable
-
-Gordo was one of the first monkeys to make it into space as part of NASA's space program. Eight monkeys had flown on NASA missions before him, five of whom went by the name of Albert.
-
-Gordo's historic flight took place on December 13, 1958 when he took off from Cape Canaveral for a 15 minute flight into space. Even though he was weightless for over 8 minutes the on-board instruments indicated that Gordo enjoyed his journey into space. Scientists monitoring the flight were pleased to note that the only slight side effect Gordo suffered from the entry into space was a modest slowing of his pulse.
-
-
-The Mission
-
-The rocket carrying Gordo into space would take off from the Atlantic Missile Range at Cape Canaveral, travel further than any monkey had ever travelled before - over 1,500 miles - and reach a height of 310 miles (500 km) before returning to Earth and landing in the South Atlantic, 1,302 nautical miles south of Cape Canaveral.
-
-"We all heard the rumors that they want to send a monkey up first. Well, none of us wants to think that they're gonna send a monkey up to do a man's work ... what they're trying to do to us is send a man up to do a monkey's work."
-
-Deke Slayton, Mercury Seven Astronaut
-
-
-The Jupiter AM-13
-
-The Jupiter IRBM (Intermediate Range Ballistic Missile) was originally developed by the US Army as a long-range successor to its PGM-11 Redstone missile, but was eventually taken over and deployed by the USAF for political reasons. It was also the only one of the United States' early stategic ballistic missiles with some mobility.
-
-Flight Date: December 13, 1958
-Launch Time: 03.53 EST
-
-
-The Journey
-
-Gordo wore a specially customised space suit custom made for a monkey about one foot tall. The space suit was fitted with instruments, including temperature meters and microphones which recorded his historic suborbital journey, considered one of the outstanding achievements of space research.
-
-Flight Time: 15 Minutes
-Apogee: 310 Miles
-
-
-References
-
-Remembering 'Gordo'
-BBC - Monkey Lost After Space Flight
-Gordo and Laika - Space Pioneers
-
-
-The Famous Primates web site is a Web Standardistas production.
-XHTML + CSS released under a Creative Commons Attribution 3.0 license.
-Photography Copyright iStockphoto.
+      <p>Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. </p>
+      <table border="1">
+        <caption>Grocery List</caption>
+        <tr>
+          <th scope="col">Item</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Cost</th>
+        </tr>
+        <tr>
+          <td>Ramen</td>
+          <td>12</td>
+          <td>.49</td>
+        </tr>
+        <tr>
+          <td>Jolt</td>
+          <td>6</td>
+          <td>.99</td>
+        </tr>
+        <tr>
+          <td>Bread</td>
+          <td>1</td>
+          <td>1.99</td>
+        </tr>
+      </table>
+      <form action="processing-script.php" method="post">
+        <fieldset>
+          <legend>Pretend Survey</legend>
+          <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="full-name" />
+          <label for="address">Address:</label>
+          <textarea id="address" name="address"></textarea>
+          <label for="color">Favorite Color</label>
+          <select id="color" name="color">
+            <option value="R">Red</option>
+            <option value="B">Blue</option>
+            <option value="G">Green</option>
+            <option selected>---</option>
+          </select>
+          <input type="submit" value="Take me to your leader" />
+        </fieldset>
+      </form>
+      <p>Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+      <ol>
+        <li>Instruction</li>
+        <li>Instruction
+          <ul>
+            <li>Ramen</li>
+            <li>Cheetos</li>
+            <li>Jolt</li>
+            <li>Bread</li>
+          </ul>
+        </li>
+        <li>Instruction</li>
+      </ol>
+      <ul>
+        <li>Ramen</li>
+        <li>Cheetos</li>
+        <li>Jolt</li>
+        <li>Bread</li>
+      </ul>
+      <dl>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+      </dl>
+      <h4>This is a Subsection of Subsection I</h4>
+      <blockquote>This is a Quote. Content precedes design. Design in the absence of content is not design, it's decoration. <cite>From Designing with Web Standards by Jeffery Zeldman.</cite></blockquote>
+      <h3>This is a Subsection of the Primary Content</h3>
+      <p>This is a paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. </p>
+      <p>Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis. Proin adipiscing ultrices dui. Duis porttitor, libero ut eleifend pellentesque, risus turpis fermentum est, vel nonummy lorem est id nisl. Nulla facilisi. In sagittis tortor. Vestibulum dictum leo vitae augue. Morbi in odio sed nulla luctus sodales.</p>
+    </section>
+    <!--#content-->
+    <section id="blog">
+      <article class="post">
+        <header>
+          <h2>Blog post Title<h2>
+        </header>
+        <p>Content for the blog post goes here.....</p>
+        <footer>
+          <p class="author">Who wrote this???</p>
+        </footer>
+      </article>
+      <article class="post">
+        <header>
+          <h2>Blog post Title<h2>
+        </header>
+        <p>Content for the blog post goes here.....</p>
+        <footer>
+          <p class="author">Who wrote this???</p>
+        </footer>
+      </article>
+      <article class="post">
+        <header>
+          <h2>Blog post Title<h2>
+        </header>
+        <p>Content for the blog post goes here.....</p>
+        <footer>
+          <p class="author">Who wrote this???</p>
+        </footer>
+      </article>
+    </section>
+    <nav class="primary">
+      <ul>
+        <li><a href="https://ualr.edu#news" target="_blank" title="Absolute Link Example">Absolute Link</a></li>
+        <li><a href="index.html">Relative Link</a></li>
+        <li><a href="mailto:email@email.com">Email Link</a></li>
+        <li><a href="#top">Anchor Link</a></li>
+      </ul>
+    </nav>
+    <!--#nav-->
+    <footer class="primary">
+      <h6>&copy; 2023 Thomas Wallace | Back To Top</h6>
+    </footer>
+    <!--#footer-->
+  </main>
 </body>
+
 </html>
