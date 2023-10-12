@@ -1,24 +1,166 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+<!-- This is an example of a comment -->
+
 <head>
-  <meta charset="utf-8">
-  <title>IFSC 1310 | My Story</title>
-  <meta name="description" content="A collection of work from IFSC 1310 - Web Technologies">
-  <meta name="author" content="Ruben Hernandez">
+  <title>Prototype HTML Document</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="This is a keyword rich short narrative of the site's purpose" />
+  <meta name="author" content="Thomas Wallace" />
+  <!-- Keywords Meta No Longer Necessary -->
+  <meta name="keywords" content="UALR, UA Little Rock, Web Technology" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
+
 <body>
-  <h1>My Adventure in the Forest</h1>
-  <p>Once upon a time, I decided to take a hike in the forest. It was a beautiful sunny day, and I was feeling adventurous. As I walked deeper and deeper into the forest, I noticed that the trees were getting taller and the shade was getting thicker.</p>
-	<p>At first, I wasn't nervous. I've been on hikes before, and I had my trusty map to guide me. But soon, I realized that I was lost. I couldn't find my way back to the trail. The trees were so tall that I couldn't even see the sky.</p>
-	<p>I started to panic. What if I never found my way out? But then, I remembered something my grandpa had taught me. He said that when you're lost in the forest, you can always find your way by following the sun. So I looked up, and I saw that the sun was still shining high in the sky.</p>
-	<p>I decided to make my way towards the sun, and after a while of walking, I found the trail. I was so relieved and happy to be back on track.</p>
-	<p>From that day on, I always remembered to bring a compass with me on my hikes. But I also remembered that sometimes, all you need is a little bit of knowledge and bravery to overcome your fears.</p>
-	<p>The end.</p>
-  <nav>
-    <ul>
-      <li><a href="My Story/index.html">My Story Assignment</a></li>
-      <li><a href="css-demo/index.html">CSS Demo</a></li>
-    </ul>
-  </nav>
+  <main>
+    <header class="primary">
+      <h1>Prototype HTML Document Example</h1>
+    </header><!-- #header-->
+    <section id="content">
+      <header>
+        <h2 id="test">Properly Marking up an HTML Document</h2>
+      </header>
+      <p>This is a paragraph. Often times designers will use <q>Dummy Text</q> as a placeholder <span class="alert">in a document</span>. An example of that text follows...<em>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</em> Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. <strong>Donec fringilla risus nec nunc.</strong> Fusce tellus arcu, blandit quis, posuere in, porta vitae, <sup>lorem.</sup></p>
+      <p> Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. <del>Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes,</del> nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim.</p>
+      <p> Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+      <h3>This is a Subsection of the Primary Content </h3>
+      <figure>
+        <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" alt="UA Little Rock Logo" />
+        <figcaption>This is a caption</figcaption>
+      </figure>
+      <p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. </p>
+      <hr />
+      <address>
+        Thomas Wallace<br />
+        555 Street Dr.<br />
+        Little Rock, AR, 72204
+      </address>
+
+      <p>Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. </p>
+      <table border="1">
+        <caption>Grocery List</caption>
+        <tr>
+          <th scope="col">Item</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Cost</th>
+        </tr>
+        <tr>
+          <td>Ramen</td>
+          <td>12</td>
+          <td>.49</td>
+        </tr>
+        <tr>
+          <td>Jolt</td>
+          <td>6</td>
+          <td>.99</td>
+        </tr>
+        <tr>
+          <td>Bread</td>
+          <td>1</td>
+          <td>1.99</td>
+        </tr>
+      </table>
+      <form action="processing-script.php" method="post">
+        <fieldset>
+          <legend>Pretend Survey</legend>
+          <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="full-name" />
+          <label for="address">Address:</label>
+          <textarea id="address" name="address"></textarea>
+          <label for="color">Favorite Color</label>
+          <select id="color" name="color">
+            <option value="R">Red</option>
+            <option value="B">Blue</option>
+            <option value="G">Green</option>
+            <option selected>---</option>
+          </select>
+          <input type="submit" value="Take me to your leader" />
+        </fieldset>
+      </form>
+      <p>Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+      <ol>
+        <li>Instruction</li>
+        <li>Instruction
+          <ul>
+            <li>Ramen</li>
+            <li>Cheetos</li>
+            <li>Jolt</li>
+            <li>Bread</li>
+          </ul>
+        </li>
+        <li>Instruction</li>
+      </ol>
+      <ul>
+        <li>Ramen</li>
+        <li>Cheetos</li>
+        <li>Jolt</li>
+        <li>Bread</li>
+      </ul>
+      <dl>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+        <dt>Term</dt>
+        <dd>Description 1</dd>
+        <dd>Description 2</dd>
+      </dl>
+      <h4>This is a Subsection of Subsection I</h4>
+      <blockquote>This is a Quote. Content precedes design. Design in the absence of content is not design, it's decoration. <cite>From Designing with Web Standards by Jeffery Zeldman.</cite></blockquote>
+      <h3>This is a Subsection of the Primary Content</h3>
+      <p>This is a paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. </p>
+      <p>Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis. Proin adipiscing ultrices dui. Duis porttitor, libero ut eleifend pellentesque, risus turpis fermentum est, vel nonummy lorem est id nisl. Nulla facilisi. In sagittis tortor. Vestibulum dictum leo vitae augue. Morbi in odio sed nulla luctus sodales.</p>
+    </section>
+    <!--#content-->
+    <section id="blog">
+      <article class="post">
+        <header>
+          <h2>Blog post Title<h2>
+        </header>
+        <p>Content for the blog post goes here.....</p>
+        <footer>
+          <p class="author">Who wrote this???</p>
+        </footer>
+      </article>
+      <article class="post">
+        <header>
+          <h2>Blog post Title<h2>
+        </header>
+        <p>Content for the blog post goes here.....</p>
+        <footer>
+          <p class="author">Who wrote this???</p>
+        </footer>
+      </article>
+      <article class="post">
+        <header>
+          <h2>Blog post Title<h2>
+        </header>
+        <p>Content for the blog post goes here.....</p>
+        <footer>
+          <p class="author">Who wrote this???</p>
+        </footer>
+      </article>
+    </section>
+    <nav class="primary">
+      <ul>
+        <li><a href="https://ualr.edu#news" target="_blank" title="Absolute Link Example">Absolute Link</a></li>
+        <li><a href="index.html">Relative Link</a></li>
+        <li><a href="mailto:email@email.com">Email Link</a></li>
+        <li><a href="#top">Anchor Link</a></li>
+      </ul>
+    </nav>
+    <!--#nav-->
+    <footer class="primary">
+      <h6>&copy; 2023 Thomas Wallace | Back To Top</h6>
+    </footer>
+    <!--#footer-->
+  </main>
 </body>
+
 </html>
