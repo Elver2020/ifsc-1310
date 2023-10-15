@@ -17,6 +17,7 @@ html {
   body{
       font-family: 'Gabarito', cursive;
       margin:0;
+      background-image:url("../img/puppy.png");
   }
   
   header.primary{
